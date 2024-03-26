@@ -119,8 +119,8 @@ public class StockAnalysis {
 			driver.get("https://www.screener.in/explore/");
 
 		}
-		System.out.println("Total " + size + "'s Sectors datas are updated successfully");
-		//closing the driver
+		System.out.println("All " + size + " Sectors datas are updated successfully");
+		//Closing driver
 		driver.close();
 
 	}
